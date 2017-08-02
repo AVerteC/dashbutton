@@ -1,0 +1,5 @@
+amazon dash button hwmacaddrs:
+
+FIJI button : fc:a6:67:f2:4f:34
+Snuggle button : fc:a6:67:92:24:99
+Happy Little Camper : 68:54:fd:cc:a5:4c

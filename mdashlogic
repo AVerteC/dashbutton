@@ -1,0 +1,14 @@
+var dash_button = require('node-dash-button');
+var dash = dash_button(["fc:a6:67:f2:4f:34","fc:a6:67:92:24:99","68:54:fd:cc:a5:4c"], null, null, 'all'); //address from step above
+dash.on("detected", function (dash_id){
+    if (dash_id === "fc:a6:67:f2:4f:34"){
+        console.log(" |X| The FIJI dash button has been pressed!");
+    } else if (dash_id === "fc:a6:67:92:24:99"){
+        console.log(" |Y| The Snuggle dash button has been pressed");
+    }
+      else if (dash_id === "68:54:fd:cc:a5:4c"){
+      	console.log(" |Z| The Happy Little Camper button has been pressed!");
+    }
+    
+
+});
